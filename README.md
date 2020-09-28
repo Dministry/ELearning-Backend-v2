@@ -26,5 +26,5 @@ adonis seed
 ### Start serve run
 
 ```js
-adonis server --dev
+adonis serve --dev
 ```
