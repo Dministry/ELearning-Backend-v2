@@ -9,14 +9,7 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 5. Migrations and seeds
 
 ## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
+manually clone the repo and then run `npm install` or `yarn install`.
 
 
 ### Migrations
@@ -25,4 +18,13 @@ Run the following command to run startup migrations.
 
 ```js
 adonis migration:run
+```
+
+```js
+adonis seed
+```
+### Start serve run
+
+```js
+adonis server --dev
 ```
